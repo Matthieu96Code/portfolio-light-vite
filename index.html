@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel de développeur web">
+  <!-- <title>Mon Portfolio | Développeur Web</title> -->
+  <title>My Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+
+    <!-- Curseur personnalisé -->
+<div class="custom-cursor"></div>
+<div class="cursor-follower"></div>
+
+<!-- Barre de progression -->
+<div class="scroll-progress"></div>
+
+<!-- Arrière-plan animé -->
+<div class="ambient-background">
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <div class="glow glow-three"></div>
+</div>
+
+  <header class="header">
+    <a href="#" class="logo">MAT<span>.</span></a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu">
+      ☰
+    </button>
+
+    <nav class="nav">
+      <a href="#home">
+        <!-- Accueil -->
+         Home
+      </a>
+      <a href="#about">
+        <!-- À propos -->
+         About
+      </a>
+      <a href="#skills">
+        <!-- Compétences -->
+         Skills
+      </a>
+      <a href="#projects">
+        <!-- Projets -->
+         Projects
+      </a>
+      <a href="#contact" class="nav-contact">
+        <!-- Me contacter ↗ -->
+        Contact me ↗
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <span class="availability">
+          <span class="dot"></span>
+          <!-- Disponible pour de nouveaux projets -->
+          Available for new projects
+        </span>
+
+        <p class="eyebrow">
+          <!-- BONJOUR, JE SUIS DÉVELOPPEUR WEB -->
+          HELLO, I'M A WEB DEVELOPER
+        </p>
+
+        <h1>
+          <!-- Je transforme -->
+          I turn<br>
+          <!-- vos idées en -->
+          your ideas into<br>
+          <span class="gradient-text">
+            <!-- expériences digitales. -->
+            digital experiences.
+          </span>
+        </h1>
+
+        <p class="hero-description">
+          <!-- Je conçois et développe des expériences web modernes,
+          performantes et intuitives. J'aime créer des solutions
+          qui allient design et technologie. -->
+
+          I design and develop modern, high-performance, and intuitive web experiences.
+          I love creating solutions that combine design and technology.
+        </p>
+
+        <div class="hero-actions">
+          <a href="./assets/Matthieu - Full Stack developer.pdf" download="kodjo_matthieu_senou_full_stack_developer_resume_eng.pdf" target="blank" class="btn primary">
+            <!-- Découvrir mes projets ↗ -->
+            <!-- Explore my projects -->
+            Download my CV ↓
+          </a>
+          <a href="#contact" class="btn secondary">
+            <!-- Me contacter -->
+            Get in touch
+          </a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/Matthieu96Code">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/kodjo-matthieu-senou/">LinkedIn ↗</a>
+          <a href="https://twitter.com/MatthieuSenou">Twitter ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-card">
+          <div class="card-top">
+            <span>MY PROFILE</span>
+            <span>✳</span>
+          </div>
+
+          <div class="avatar">
+            <span>
+              <!-- DEV -->
+              <img src="./src/assets/imgmesf.jpeg" alt="my picture"/>
+            </span>
+          </div>
+
+          <h2>Creative Developer</h2>
+          <p>Building digital experiences.</p>
+
+          <div class="code-window">
+            <div><span>const</span> developer = {</div>
+            <div class="indent">name: <i>"Matthieu"</i>,</div>
+            <div class="indent">passion: <i>"Coding"</i>,</div>
+            <div class="indent">creative: <b>true</b></div>
+            <div>};</div>
+          </div>
+
+          <span class="floating-icon icon-one">✦</span>
+          <span class="floating-icon icon-two">⌘</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">
+        <!-- 01 / À PROPOS -->
+        01 / ABOUT ME
+      </div>
+      <div class="about-content reveal">
+        <h2>
+          <!-- Le code est mon outil. -->
+          Code is my tool.<br>
+          <span>
+            <!-- La créativité est ma force. -->
+            Creativity is my strength.
+          </span>
+        </h2>
+        <p>
+          <!-- Passionné par le développement web, je crée des interfaces
+          modernes et des applications qui répondent à de vrais besoins.
+          Mon approche repose sur la simplicité, la performance et
+          l'expérience utilisateur. -->
+          Passionate about web development, I create modern interfaces
+          and applications that solve real-world problems.
+          My approach focuses on simplicity, performance, and
+          user experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label">
+        <!-- 02 / COMPÉTENCES -->
+        02 / SKILLS
+      </div>
+      <h2 class="section-title reveal">
+        <!-- Mes outils de création. -->
+        My creative toolkit.
+      </h2>
+
+      <div class="skills-grid reveal">
+        <!-- <div class="skill-card"><span>01</span><h3>HTML5</h3><p>Structure web</p></div>
+        <div class="skill-card"><span>02</span><h3>CSS3</h3><p>Design & animations</p></div>
+        <div class="skill-card"><span>03</span><h3>JavaScript</h3><p>Interactions dynamiques</p></div>
+        <div class="skill-card"><span>04</span><h3>React</h3><p>Interfaces modernes</p></div>
+        <div class="skill-card"><span>05</span><h3>Node.js</h3><p>Développement backend</p></div>
+        <div class="skill-card"><span>06</span><h3>Git</h3><p>Gestion de versions</p></div>
+        <div class="skill-card"><span>07</span><h3>Next.js</h3><p>Site web statique</p></div>
+        <div class="skill-card"><span>08</span><h3>Ruby</h3><p>Langage de programmation</p></div>
+        <div class="skill-card"><span>09</span><h3>Ruby on Rails</h3><p>Framework web</p></div>
+        <div class="skill-card"><span>10</span><h3>PHP</h3><p>Langage de programmation</p></div>
+        <div class="skill-card"><span>11</span><h3>WordPress</h3><p>Plateforme de gestion de contenu</p></div>
+        <div class="skill-card"><span>12</span><h3>tailwind</h3><p>Framework CSS utility-first</p></div>
+        <div class="skill-card"><span>13</span><h3>React Native</h3><p>Applications mobiles</p></div>
+        <div class="skill-card"><span>14</span><h3>Laravel</h3><p>Framework web</p></div> -->
+
+        <div class="skill-card"><span>01</span><h3>HTML5</h3><p>Web Structure</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></div>
+        <div class="skill-card"><span>02</span> <h3>CSS3</h3><p>Design & Animations</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></div>
+        <div class="skill-card"><span>03</span> <h3>JavaScript</h3><p>Dynamic Interactions</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></div>
+        <div class="skill-card"><span>04</span><h3>React</h3><p>Modern Interfaces</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></div>
+        <div class="skill-card"><span>05</span><h3>Node.js</h3><p>Backend Development</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></div>
+        <div class="skill-card"><span>06</span><h3>Git</h3><p>Version Control</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /></div>
+        <div class="skill-card"><span>07</span><h3>Next.js</h3><p>Static Websites</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></div>
+        <div class="skill-card"><span>08</span><h3>Ruby</h3><p>Programming Language</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /></div>
+        <div class="skill-card"><span>09</span><h3>Ruby on Rails</h3><p>Web Framework</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" /></div>
+        <div class="skill-card"><span>10</span><h3>PHP</h3><p>Programming Language</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" /></div>
+        <div class="skill-card"><span>11</span><h3>WordPress</h3><p>Content Management System</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" /></div>
+        <div class="skill-card"><span>12</span><h3>Tailwind CSS</h3><p>Utility-First CSS Framework</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" /></div>
+        <div class="skill-card"><span>13</span><h3>React Native</h3><p>Mobile App Development</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg?utm_source=chatgpt.com" /></div>
+        <div class="skill-card"><span>14</span><h3>Laravel</h3><p>Web Framework</p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" /></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label">
+        <!-- 03 / RÉALISATIONS -->
+        03 / PROJECTS
+      </div>
+      <h2 class="section-title reveal">
+        <!-- Quelques projets sélectionnés. -->
+        A selection of my work.
+      </h2>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image project-one">
+            <span>
+              01 / WEBSITE
+            </span>
+            <!-- <div class="mockup">NOVA<span>.</span></div> -->
+             <img src="./src/assets/icsl.png" alt="icsl project image" />
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>International Christian School of Lomé</h3>
+              <p>
+                <!-- Site vitrine moderne -->
+                Educational Website
+              </p>
+            </div>
+            <a href="https://internationalchristianschooloflome.com" aria-label="Voir Nova Studio">↗</a>
+          </div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>WORDPRESS</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-two">
+            <span>
+              02 / WEBSITE
+            </span>
+            <!-- <div class="mockup">TASK<span>+</span></div> -->
+             <img src="./src/assets/trading-corp.png" alt="trading project image" />
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Trading Corporation</h3>
+              <p>
+                <!-- Application de gestion -->
+                Modern Business Website
+              </p>
+            </div>
+            <a href="https://trading-corp-kodjo-matthieu-senous-projects.vercel.app" aria-label="Voir Task Manager">↗</a>
+          </div>
+          <div class="tags"><span>NextJs</span><span>Tailwinds</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-three">
+            <span>
+              03 / APLLiCATION
+            </span>
+            <!-- <div class="mockup">SHOP<span>↗</span></div> -->
+             <img src="./src/assets/wafcogwm.png" alt="wafcogwm project image" />
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>
+                <!-- Shop Experience -->
+                West Africa Francophone Church Of God Word Missions
+              </h3>
+              <p>
+                <!-- Plateforme e-commerce -->
+                Prayer room manager
+              </p>
+            </div>
+            <a href="https://wafcogwm.org/" aria-label="Voir Shop Experience">↗</a>
+          </div>
+          <div class="tags"><span>PHP</span><span>Laravel</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">
+        04 / CONTACT
+      </div>
+      <div class="contact-content reveal">
+        <p>
+          <!-- UN PROJET EN TÊTE ? -->
+          HAVE A PROJECT IN MIND?
+        </p>
+        <h2>
+          <!-- Créons quelque chose -->
+          Let's create something<br>
+          <span>
+            <!-- d'extraordinaire. -->
+            extraordinary.
+          </span></h2>
+        <a href="mailto:senoumatthieu96@gmail.com" class="btn primary">
+          <!-- Discutons ensemble ↗ -->
+          Let's talk ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">MAT<span>.</span></a>
+    <p>
+      <!-- © 2026 — Conçu avec passion. -->
+      © 2026 — Crafted with passion.
+    </p>
+    <a href="#home">
+      <!-- Retour en haut ↑ -->
+      Back to top ↑
+    </a>
+  </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
